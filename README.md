@@ -12,6 +12,8 @@ pip install -r requirement.txt
 
 
 **Raw Data:**
-The raw data output by UE5 are .EXR format, and the 20 group of targets are included in folder “raw_data”.
+The raw data output by UE5 are .EXR format, and the 20 group of targets are included in folder “raw_data”. Of course you need to unzip the "raw_data.zip" file.
 
 **Run**
+python fisher_my.py
+python binomial_my.py
