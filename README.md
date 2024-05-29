@@ -5,4 +5,12 @@ In our work, we manupulated 20 different target in UE5, and conducted depth imag
 Some of the results are shown as below:
 ![描述文字](example.png)
 
-**requirement**
+**Environment**
+conda create -n simulation python=3.9
+conda activate simulation
+pip install -r requirement.txt
+
+
+**Raw Data**
+The raw data output by UE5 are .EXR format, and the 20 group of targets are included in folder “raw_data”.
+
