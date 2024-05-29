@@ -6,9 +6,9 @@ Some of the results are shown as below:
 ![描述文字](example.png)
 
 **Environment:**
-conda create -n simulation python=3.9\\
-conda activate simulation\\
-pip install -r requirement.txt\\
+conda create -n simulation python=3.9
+conda activate simulation
+pip install -r requirement.txt
 
 
 **Raw Data:**
