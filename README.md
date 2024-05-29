@@ -1,9 +1,7 @@
 # Simulating-single-photon-detector-array-sensors-for-depth-imaging
-Code related to the publication Simulating single-photon detector array sensors for depth imaging
+This is a official repo for paper *A Simulation Method for Underwater SPAD Depth Image Datasets. The method is based on *Simulating single-photon detector array sensors for depth imaging* by Stirling Scholes
 
-The 3 .EXR files are for demonstration purposes and should be used with the provided Python code. The Python code is in the form of JuPyter notebooks and is designed to be GPU accelerated.
-A GPU compatible with CuPy is required for this acceleration.
+In our work, we manupulated 20 different target in UE5, and conducted depth image simulating to get over 2000 frames in different backward scattering coefficient. What's more, it is also make sense to get the histogram data, which is formated as .mat file.
+Some of the results are shown as below:
+![描述文字](images/your-image.png)
 
-The .pdf file provides an outline of data capture in Unreal Engine 5. The entire Unreal environment cannot be provided due to limitations on the file size supported by Github. The .pdf file does not cover the installation of Unreal Engine 5.
-
-For additional assitance please contact j.leach@hw.ac.uk
