@@ -15,3 +15,4 @@ pip install -r requirement.txt
 The raw data output by UE5 are .EXR format, and the 20 group of targets are included in folder “raw_data”.
 
 **Run**
+请问讽德诵功
