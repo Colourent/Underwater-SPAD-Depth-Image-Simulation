@@ -144,40 +144,6 @@ def make_imgs(bins,peak_posi,jitter,C_ref,bckg_refs,num_frames,f_num,num_imgs,pi
     return spad_com_img
 
 
-# def monte_carlo(true_depth, absorption_coefficient, scattering_coefficient, num_photons):
-#     height, width = true_depth.shape
-#     depth_max = true_depth.max() # 最大深度（单位：像素）
-
-#     # 初始化图像
-#     image = np.zeros((height, width))
-
-#     # 定义散射和吸收参数
-#     absorption_coefficient
-#     scattering_coefficient
-
-#     # 执行光线传播模拟
-#     for i in range(num_photons):
-#         x = np.random.randint(width)
-#         y = np.random.randint(height)
-#         depth = 0
-        
-#         while 0 <= x < width and 0 <= y < height and depth < depth_max:
-#             # 模拟光线传播
-#             depth += 0.15
-#             x += np.random.choice([-1, 0, 1])
-#             y += np.random.choice([-1, 0, 1])
-            
-#             # 模拟光子被吸收的概率
-#             if np.random.rand() < absorption_coefficient:
-#                 break
-            
-#             # 更新图像中的光强度
-#             if 0 <= x < width and 0 <= y < height:
-#                 image[y, x] += scattering_coefficient
-
-            
-#     return true_depth-image
-
 def monte_carlo(true_depth, back_scattering_coefficient, step_sample_num):
     height, width = true_depth.shape
     depth_max = np.amax(true_depth) # 最大深度（单位：像素）
